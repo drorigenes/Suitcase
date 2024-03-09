@@ -1,0 +1,44 @@
+baseURL: '/'
+languageCode: 'en-us'
+title: 'Ring0.dev'
+theme: "papermod"
+
+menu:
+  main:
+    - name: Posts
+      url: "/posts"
+      weight: 5
+    - name: Projects
+      url: "/projects"
+      weight: 10
+    - name: About
+      url: "/about"
+      weight: 15
+    - name: Contact
+      url: "/contact"
+      weight: 20
+params:
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    title: "Ring0.dev" # optional default will be site title
+    subtitle: "Joel Carbajales (origenes) blog"
+    imageUrl: "images/pic.jpg" # optional
+    imageTitle: "" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Projects
+        url: "/projects"
+      - name: About
+        url: "/about"
+      - name: Contact
+        url: "/contact"
+
+  socialIcons: # optional
+    - name: "linkedin"
+      url: "https://linkedin.com/in/carbajales"
+    - name: "Github"
+      url: "https://github.com/jcarga"
